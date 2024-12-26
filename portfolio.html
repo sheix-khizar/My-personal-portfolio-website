@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewPortfolio</title>
+
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="d-flex justify-content-center align-items-center" style="margin-top: 50px;">
+      <a href="index.html" class="logo text-center">
+        <h1 class="sitename" style="font-size: 36px; margin: 0px 0px 10px 0px ;">Khizar's <span class="Logo-Text">Portfolio</span></h1>
+      </a>
+    </div>
+
+    <div class="social-links text-center">
+
+      <a href="https://www.linkedin.com/in/sheikh-muhammad-khizar-214b532aa/ "target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/sheix-khizar" target="_blank" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://instagram.com" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+        <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="services.html"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="portfolio.html" class="active"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Discover my projects showcasing responsive websites, user-friendly desktop applications, and innovative mobile apps, all tailored to meet the needs of businesses. Explore my work below!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- Portfolio Tabs -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+              <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#web-app" role="tab">Web Apps</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#desktop-app" role="tab">Desktop Apps</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#wordpress" role="tab">Wordpress</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#mobile-app" role="tab">Mobile Apps</button>
+              </li>
+            </ul>
+          
+            <div class="tab-content">
+              <!-- Web Apps Projects -->
+              <div class="tab-pane fade show active" id="web-app" data-aos="fade-up" data-aos-delay="200">
+                <section id="portfolio" class="portfolio_wrapper">
+                  <div class="container">
+                    <div class="row">
+                      <!-- One -->
+                      <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="card p-0">
+                          <span style="background-image: url('Media/Portfolio/Web-Applications/snake.png')"></span>
+                          <div class="PortfolioMainButtons">
+                            <a href="https://github.com/sheix-khizar/Simple-Sanke-Game" target="_blank" class="btn btn-primary portfolio-Button CodeButton"><i class="bi bi-github"></i>
+                              <p>Code</p>
+                            </a>
+                            <a href="https://simple-sanke-game.vercel.app/" target="_blank" class="btn btn-primary portfolio-Button LiveButton"><i class="bi bi-pc-display-horizontal"></i>
+                              <p>Play</p>
+                            </a>
+                            <h2 class="Portfolio-description">Snake Game</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Two -->
+                      <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="card p-0">
+                          <span style="background-image: url('Media/Portfolio/Web-Applications/Weather-App.png')"></span>
+                          <div class="PortfolioMainButtons">
+                            <a href="https://github.com/sheix-khizar/Simple-Weather-App" target="_blank" class="btn btn-primary portfolio-Button CodeButton"><i class="bi bi-github"></i>
+                              <p>Code</p>
+                            </a>
+                            <a href="https://simple-weather-app-weld.vercel.app/" target="_blank" class="btn btn-primary portfolio-Button LiveButton"><i class="bi bi-pc-display-horizontal"></i>
+                              <p>Live</p>
+                            </a>
+                            <h2 class="Portfolio-description">Weather App</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Three -->
+                      <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="card p-0">
+                          <span style="background-image: url('Media/Portfolio/Web-Applications/Tic-Tak.png')"></span>
+                          <div class="PortfolioMainButtons">
+                            <a href="https://github.com/sheix-khizar/Tic-Tak-Game" target="_blank" class="btn btn-primary portfolio-Button CodeButton"><i class="bi bi-github"></i>
+                              <p>Code</p>
+                            </a>
+                            <a href="https://tic-tak-game-mu.vercel.app/" target="_blank" class="btn btn-primary portfolio-Button LiveButton"><i class="bi bi-pc-display-horizontal"></i>
+                              <p>Live</p>
+                            </a>
+                            <h2 class="Portfolio-description">Tic Tak Game</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+          
+
+
+                <!--Desktop APPS Projects -->
+                <div class="tab-pane fade" id="desktop-app" data-aos="fade-up"data-aos-delay="300">
+                  <section id="portfolio" class="portfolio_wrapper">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 mb-4">
+                          <div class="card p-0">
+                            <span style="background-image: url('Media/Portfolio/Desktop-Applications/ATM.png')"></span>
+                            <div class="PortfolioMainButtons">
+                              <a href="https://github.com/sheix-khizar/Simple-ATM-Machine-System" target="_blank" class="btn btn-primary portfolio-Button CodeButton"><i
+                                  class="bi bi-github"></i>
+                                <p>Code</p>
+                              </a>
+                              <a href="link_not_available_because_its_desktop_application" target="_blank" class="btn btn-primary portfolio-Button LiveButton"><i
+                                  class="bi bi-pc-display-horizontal"></i>
+                                <p>Live</p>
+                              </a>
+                              <h2 class="Portfolio-description">ATM Machine System</h2>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4">
+                          <div class="card p-0">
+                            <span style="background-image: url('Media/Portfolio/Desktop-Applications/Restaurant.png')"></span>
+                            <div class="PortfolioMainButtons">
+                              <a href="https://github.com/sheix-khizar/Restaurant-System" target="_blank" class="btn btn-primary portfolio-Button CodeButton"><i
+                                  class="bi bi-github"></i>
+                                <p>Code</p>
+                              </a>
+                              <a href="link_not_available_because_its_desktop_application" target="_blank" class="btn btn-primary portfolio-Button LiveButton"><i
+                                  class="bi bi-pc-display-horizontal"></i>
+                                <p>Live</p>
+                              </a>
+                              <h2 class="Portfolio-description">Restaurant Management <br> System</h2>
+                            </div>
+                          </div>
+                        </div>
+                  </section>
+                </div>
+
+
+
+
+                <!--Wordpress Projects -->
+               
+                  <div class="tab-pane fade" id="wordpress" data-aos="fade-up"data-aos-delay="300">
+                    <section id="portfolio" class="portfolio_wrapper">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="card p-0">
+                              <span style="background-image: url('Media/Portfolio/Wordpress/one.png')"></span>
+                              <div class="PortfolioMainButtons">
+                                <h2 class="Portfolio-description" style="margin-top: 10px;">Pet Care Website</h2>
+                              
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="card p-0">
+                              <span style="background-image: url('Media/Portfolio/Wordpress/two.png')"></span>
+                              <div class="PortfolioMainButtons">
+                                <h2 class="Portfolio-description" style="margin-top: 10px;">News Website</h2>
+                 
+                              </div>
+                            </div>
+                          </div>
+  
+                          <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="card p-0">
+                              <span style="background-image: url('Media/Portfolio/Wordpress/three.png')"></span>
+                              <div class="PortfolioMainButtons">
+                                <h2 class="Portfolio-description" style="margin-top: 10px;">Medical Website</h2>
+
+                               
+                              </div>
+                            </div>
+                          </div>
+  
+  
+  
+  
+  
+                    </section>
+                  </div>
+  
+                     <!-- Mobile Apps Projects -->
+                <div class="tab-pane fade" id="mobile-app" data-aos="fade-up"data-aos-delay="300">
+               
+                  <section id="portfolio" class="portfolio_wrapper">
+                    <div class="container">
+                      <div class="row">
+
+                        <h2 class="Portfolio-description">COMING SOON!</h2>
+
+                        <!-- <div class="col-lg-3 col-md-6 mb-4">
+                          <div class="card p-0">
+                            <span style="background-image: url('Media/Portfolio/Mobile-Apps/coming-sooon.png')"></span>
+                            <div class="PortfolioMainButtons">
+                              <a href="link_to_code_2" class="btn btn-primary portfolio-Button CodeButton"><i
+                                  class="bi bi-github"></i>
+                                <p>Code</p>
+                              </a>
+                              <a href="link_to_code_2" class="btn btn-primary portfolio-Button LiveButton"><i
+                                  class="bi bi-pc-display-horizontal"></i>
+                                <p>Live</p>
+                              </a>
+                            </div>
+                          </div>
+                        </div> -->
+                       
+                
+                      </div>
+
+                  </section>
+                </div>
+
+            
+                  
+              </div><!-- End Portfolio Container -->
+
+            </div>
+          </div>
+
+        </div>
+
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
